@@ -437,7 +437,7 @@
         "uuid": "b8a71413-2f72-4fc8-bd3f-79bd75a458cc"
       }
     ],
-    "used_designators": "U1-12,D1,#PWR1-75,C1-36,Rlim1,FB1-2,Y1,#FLG3,R1-24,Cin1,Cin3-4,J1-7,H1-2,L1-3,Ccomp3-4,Cout1,Cout3,Cbst1,Css1,Cvcc1,Cvcc3,Rcomp1,Rfbb1,Rfbt1,Rt1",
+    "used_designators": "U1-13,D1,#PWR1-80,C1-36,Rlim1-2,FB1-2,Y1,#FLG3,R1-25,Cin1,Cin3-5,J1-14,H1-2,L1-3,Ccomp1,Ccomp3-4,Cout1,Cout3-5,Cbst1-2,Css1-2,Cvcc1,Cvcc3-4,Rcomp1-2,Rfbb1-2,Rfbt1-2,Rt1-2,TP1-23,SW1,Lsw1,Rpg1",
     "variants": []
   },
   "sheets": [
@@ -464,6 +464,10 @@
     [
       "3b939a09-dd70-47cd-bc60-ae9706746fb9",
       "Motors and Power Sensors"
+    ],
+    [
+      "7752fcff-1472-4e9b-b698-ce573f3cb621",
+      "Test Points"
     ]
   ],
   "text_variables": {},

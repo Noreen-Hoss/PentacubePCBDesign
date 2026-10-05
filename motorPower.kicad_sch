@@ -3389,7 +3389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 181.61 62.5348 0)
 			(hide yes)
 			(show_name no)
@@ -3469,7 +3469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 162.56 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3569,7 +3569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.092 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -3965,7 +3965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 67.31 73.152 90)
 			(hide yes)
 			(show_name no)
@@ -4045,7 +4045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.08 54.9148 0)
 			(hide yes)
 			(show_name no)
@@ -4285,7 +4285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 239.522 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -4365,7 +4365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 36.83 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -4465,7 +4465,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 203.5048 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4547,7 +4547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 184.912 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -4786,7 +4786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.902 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -4868,7 +4868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 72.6948 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5210,7 +5210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 166.37 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5302,7 +5302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 35.56 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5473,7 +5473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 262.89 51.1048 0)
 			(hide yes)
 			(show_name no)
@@ -5871,7 +5871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 247.142 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -5953,7 +5953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 54.102 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -6035,7 +6035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 116.332 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -6115,7 +6115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 50.8 66.3448 0)
 			(hide yes)
 			(show_name no)
@@ -6460,7 +6460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 108.712 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -6540,7 +6540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 198.12 69.342 90)
 			(hide yes)
 			(show_name no)
@@ -6699,7 +6699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 67.31 90.932 90)
 			(hide yes)
 			(show_name no)
@@ -6937,7 +6937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 198.12 87.122 90)
 			(hide yes)
 			(show_name no)
