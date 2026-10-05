@@ -900,6 +900,86 @@
 		)
 		(uuid "f106eba8-66d7-4cfc-90b8-999a2f80fe6f")
 	)
+	(label "CAN_B_RX"
+		(at 82.55 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ac11e0a-a4dd-4f26-b251-d097bacfad14")
+	)
+	(label "CAN_A_L"
+		(at 130.81 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35fff3f3-db4c-4321-8c31-77189c7b789c")
+	)
+	(label "CAN_B_TX"
+		(at 82.55 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "501be4c8-6871-4bc3-b7fc-6816e8cedcc4")
+	)
+	(label "CAN_B_L"
+		(at 130.81 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "694d7a34-e7df-4dd7-8a68-92457a28aa93")
+	)
+	(label "CAN_A_H"
+		(at 130.81 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f5f400d-7848-4188-831d-77de35d2564d")
+	)
+	(label "CAN_A_TX"
+		(at 83.82 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8d7568a-6ff7-4c13-906e-a09a0d504b95")
+	)
+	(label "CAN_A_RX"
+		(at 83.82 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d90cef56-0484-4943-b183-53d6ea26641b")
+	)
+	(label "CAN_B_H"
+		(at 130.81 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eeb0bae9-6356-4a32-8d81-631b83d799af")
+	)
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 58.42 50.8 180)
@@ -1033,7 +1113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 93.6752 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -1991,7 +2071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 93.6752 91.44 0)
 			(hide yes)
 			(show_name no)

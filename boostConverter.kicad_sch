@@ -3357,6 +3357,106 @@
 		)
 		(uuid "ffe2d532-bf8d-4431-a707-35314949fbce")
 	)
+	(label "ILIM_M1"
+		(at 133.35 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bc864f9-772c-4181-855c-25a56d47af18")
+	)
+	(label "SS_M1"
+		(at 133.35 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "446b675d-50a6-4523-a881-0baa976ceeb8")
+	)
+	(label "FB_M2"
+		(at 91.44 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "717d1c1a-bcc4-491b-b090-f87e0cbc6faf")
+	)
+	(label "ILIM_M2"
+		(at 132.08 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e375bff-d52d-42fb-adbf-77d4a71acb75")
+	)
+	(label "EN_M2"
+		(at 91.44 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d677c09-a049-435c-9984-4f073d950c77")
+	)
+	(label "FB_M1"
+		(at 92.71 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93d4a9ce-5417-4ea6-8497-979448c9d72e")
+	)
+	(label "SS_M2"
+		(at 132.08 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ab15e8d-adeb-4977-865e-3b24d3ab0d95")
+	)
+	(label "SW_M2"
+		(at 90.17 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5326adc-61bd-4f2a-9163-95f037d991d1")
+	)
+	(label "EN_M1"
+		(at 91.44 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9f97de6-5f70-43a4-829e-611258f1c65e")
+	)
+	(label "SW_M1"
+		(at 91.44 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae595b06-e1dc-4829-ac91-c2b90897b867")
+	)
 	(hierarchical_label "+5V"
 		(shape input)
 		(at 29.21 107.95 180)
@@ -3432,7 +3532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.36 130.048 90)
 			(hide yes)
 			(show_name no)
@@ -3512,7 +3612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS61088RHLR:IC_TPS61088RHLR"
+		(property "Footprint" "TPS1088RHLR:IC_TPS61088RHLR"
 			(at 114.3 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3786,7 +3886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15d890e4-de00-4d90-842a-8eec08ea546a")
-		(property "Reference" "Rlim"
+		(property "Reference" "Rlim2"
 			(at 150.114 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3808,7 +3908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 146.812 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -3850,7 +3950,7 @@
 		(instances
 			(project "Pentacube_PCB_V1"
 				(path "/b8a71413-2f72-4fc8-bd3f-79bd75a458cc/a99e5b0a-f66a-4813-9de3-215c6ae7a6f8"
-					(reference "Rlim")
+					(reference "Rlim2")
 					(unit 1)
 				)
 			)
@@ -3947,7 +4047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2132640a-c0a5-45d2-b4c5-7e76e7cee515")
-		(property "Reference" "Rfbb"
+		(property "Reference" "Rfbb2"
 			(at 189.23 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3969,7 +4069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 184.912 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -4011,7 +4111,7 @@
 		(instances
 			(project "Pentacube_PCB_V1"
 				(path "/b8a71413-2f72-4fc8-bd3f-79bd75a458cc/a99e5b0a-f66a-4813-9de3-215c6ae7a6f8"
-					(reference "Rfbb")
+					(reference "Rfbb2")
 					(unit 1)
 				)
 			)
@@ -4028,7 +4128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "243ca4ea-5953-43a0-817d-d7d18f381661")
-		(property "Reference" "Cvcc"
+		(property "Reference" "Cvcc4"
 			(at 55.88 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4050,7 +4150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.3052 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4092,7 +4192,7 @@
 		(instances
 			(project "Pentacube_PCB_V1"
 				(path "/b8a71413-2f72-4fc8-bd3f-79bd75a458cc/a99e5b0a-f66a-4813-9de3-215c6ae7a6f8"
-					(reference "Cvcc")
+					(reference "Cvcc4")
 					(unit 1)
 				)
 			)
@@ -4109,7 +4209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cf15c27-14b9-49ea-8314-bb7bc7c4ed6e")
-		(property "Reference" "Cout"
+		(property "Reference" "Cout5"
 			(at 208.026 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4131,7 +4231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 205.4352 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4173,7 +4273,7 @@
 		(instances
 			(project "Pentacube_PCB_V1"
 				(path "/b8a71413-2f72-4fc8-bd3f-79bd75a458cc/a99e5b0a-f66a-4813-9de3-215c6ae7a6f8"
-					(reference "Cout")
+					(reference "Cout5")
 					(unit 1)
 				)
 			)
@@ -4212,7 +4312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 33.9852 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4294,7 +4394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 183.642 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -4375,7 +4475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 88.5952 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -4456,7 +4556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.9852 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4615,7 +4715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS61088RHLR:IC_TPS61088RHLR"
+		(property "Footprint" "TPS1088RHLR:IC_TPS61088RHLR"
 			(at 115.57 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4912,7 +5012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "IND_74439324015:L_Wurth_WE-XHMI-4030"
 			(at 73.66 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -4972,7 +5072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60802b52-eaf4-48bd-9cfa-6a76aacb6370")
-		(property "Reference" "Ccomp"
+		(property "Reference" "Ccomp1"
 			(at 177.8 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4994,7 +5094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 174.9552 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5036,7 +5136,7 @@
 		(instances
 			(project "Pentacube_PCB_V1"
 				(path "/b8a71413-2f72-4fc8-bd3f-79bd75a458cc/a99e5b0a-f66a-4813-9de3-215c6ae7a6f8"
-					(reference "Ccomp")
+					(reference "Ccomp1")
 					(unit 1)
 				)
 			)
@@ -5075,7 +5175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.0352 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5156,7 +5256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 216.8652 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5216,7 +5316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70ee7cdd-4e0a-45ca-b315-c39fc6d3d022")
-		(property "Reference" "Rcomp"
+		(property "Reference" "Rcomp2"
 			(at 176.53 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5238,7 +5338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 172.212 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -5280,7 +5380,7 @@
 		(instances
 			(project "Pentacube_PCB_V1"
 				(path "/b8a71413-2f72-4fc8-bd3f-79bd75a458cc/a99e5b0a-f66a-4813-9de3-215c6ae7a6f8"
-					(reference "Rcomp")
+					(reference "Rcomp2")
 					(unit 1)
 				)
 			)
@@ -5297,8 +5397,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72128a8c-0272-4c5c-9807-d60f55acffed")
-		(property "Reference" "Rt"
-			(at 85.598 50.8 90)
+		(property "Reference" "Rt2"
+			(at 84.328 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5317,7 +5417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.63 55.118 90)
 			(hide yes)
 			(show_name no)
@@ -5359,7 +5459,7 @@
 		(instances
 			(project "Pentacube_PCB_V1"
 				(path "/b8a71413-2f72-4fc8-bd3f-79bd75a458cc/a99e5b0a-f66a-4813-9de3-215c6ae7a6f8"
-					(reference "Rt")
+					(reference "Rt2")
 					(unit 1)
 				)
 			)
@@ -5398,7 +5498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 44.1452 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5457,7 +5557,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85501f4e-b22e-4de2-992f-dc4054b6c194")
-		(property "Reference" "Cin"
+		(property "Reference" "Cin5"
 			(at 37.084 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5479,7 +5579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 35.2552 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5521,7 +5621,7 @@
 		(instances
 			(project "Pentacube_PCB_V1"
 				(path "/b8a71413-2f72-4fc8-bd3f-79bd75a458cc/a99e5b0a-f66a-4813-9de3-215c6ae7a6f8"
-					(reference "Cin")
+					(reference "Cin5")
 					(unit 1)
 				)
 			)
@@ -5560,7 +5660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 159.7152 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5619,7 +5719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93f881df-a8e3-4acf-9af4-194e51640952")
-		(property "Reference" "Cbst"
+		(property "Reference" "Cbst2"
 			(at 91.44 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5641,7 +5741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 89.8652 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5683,7 +5783,7 @@
 		(instances
 			(project "Pentacube_PCB_V1"
 				(path "/b8a71413-2f72-4fc8-bd3f-79bd75a458cc/a99e5b0a-f66a-4813-9de3-215c6ae7a6f8"
-					(reference "Cbst")
+					(reference "Cbst2")
 					(unit 1)
 				)
 			)
@@ -5701,7 +5801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ebb42ea-5b66-451a-bd7c-2e911bbb766a")
-		(property "Reference" "Rfbt"
+		(property "Reference" "Rfbt2"
 			(at 189.23 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5723,7 +5823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 184.912 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -5765,7 +5865,7 @@
 		(instances
 			(project "Pentacube_PCB_V1"
 				(path "/b8a71413-2f72-4fc8-bd3f-79bd75a458cc/a99e5b0a-f66a-4813-9de3-215c6ae7a6f8"
-					(reference "Rfbt")
+					(reference "Rfbt2")
 					(unit 1)
 				)
 			)
@@ -5804,7 +5904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.4652 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5885,7 +5985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 42.8752 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5944,7 +6044,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8ea7b4e-6a5b-4b2b-908a-a2e4bf2b2824")
-		(property "Reference" "Css"
+		(property "Reference" "Css2"
 			(at 142.24 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5966,7 +6066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 140.6652 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6008,7 +6108,7 @@
 		(instances
 			(project "Pentacube_PCB_V1"
 				(path "/b8a71413-2f72-4fc8-bd3f-79bd75a458cc/a99e5b0a-f66a-4813-9de3-215c6ae7a6f8"
-					(reference "Css")
+					(reference "Css2")
 					(unit 1)
 				)
 			)
@@ -6048,7 +6148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "IND_74439324015:L_Wurth_WE-XHMI-4030"
 			(at 72.39 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6129,7 +6229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 218.1352 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6210,7 +6310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 204.1652 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6291,7 +6391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.1952 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6452,7 +6552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 183.642 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -6534,7 +6634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 173.6852 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6616,7 +6716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 170.942 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -6776,7 +6876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.3952 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6857,7 +6957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 145.542 132.08 90)
 			(hide yes)
 			(show_name no)
